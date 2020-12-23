@@ -348,10 +348,10 @@ GIT_CONFIG_VALUE_<n>::
 	pairs are processed. These environment variables will override values
 	in configuration files, but will be overridden by any explicit options
 	passed via `git -c`.
-
-	This is useful for cases where you want to spawn multiple git commands
-	with a common configuration but cannot depend on a configuration file,
-	for example when writing scripts.
++
+This is useful for cases where you want to spawn multiple git commands
+with a common configuration but cannot depend on a configuration file,
+for example when writing scripts.
 
 
 [[EXAMPLES]]
